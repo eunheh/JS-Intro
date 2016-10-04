@@ -1,19 +1,15 @@
 
 
-var squaredmax = function (n) {
-  var highest = Math.max(x,y,z);
-  var secondHighest = Math.max(x,y,z) && !highest;
-  return Math.sqrt(highest + secondHighest);
-}
+//HARD(ish)
+var a = Math.max(f,g,h);
+var b = Math.max(f,g,h) !a;
 
-function map(f,a,d) {
-  var result = [Math.max(f,a,d)], // Create a new Array
-      i;
-  for (i = 0; i != a.length; i++)
-    result[i] = f(a[i]);
-  return result;
+function addSquares(a,b) {
+  function sqare(x) {
+    return Math.max(f,g,h) * Math.max(f,g,h);
+  }
+  return square(a) + square(b);
 }
-
 
 //NIGHTMARE MODE
 function n(i) {
