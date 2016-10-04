@@ -6,7 +6,7 @@ var b = Math.max(f,g,h) !a;
 
 function addSquares(a,b) {
   function sqare(x) {
-    return Math.max(f,g,h) * Math.max(f,g,h);
+    return x * x;
   }
   return square(a) + square(b);
 }
